@@ -21,14 +21,17 @@ import Lib.Utilities.Mathematics as Mathematics
 def main():
     """
     Description:
-        A simple script to evaluate a class for working with Euler angles.
+        A simple script to evaluate a class for working with homogeneous transformation matrix.
     """
     
+    # Rotation axis sequence configuration.
+    axes_sequence_cfg = 'ZYX'
+
     # Generate a random vector of three elements (euler angles).
     ea_rnd = np.random.uniform(-Mathematics.CONST_MATH_HALF_PI, Mathematics.CONST_MATH_HALF_PI, 3)
 
     # Initialization of the class (Euler Angle).
-    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, 'ZYX', np.float32)
+    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, axes_sequence_cfg, np.float32)
 
     # Get the homogeneous transformation matrix.
     T = EA_Cls.Get_Homogeneous_Transformation_Matrix().all()
@@ -48,8 +51,10 @@ def main():
     print(f'[INFO] Input Euler_Angles<float> {EA_Cls.Shape} = {EA_Cls.all()} [radians]')
     print('[INFO] T^(-1) = ')
     print(f'{HTM_Cls.Inverse()}')
-    print('[INFO] Diagonal T = ')
-    print(f'{HTM_Cls.Diagonal()}')
+    print(f'[INFO] Diagonal = {HTM_Cls.Diagonal()[0:-1]}')
+    print(f'[INFO] Tace = {HTM_Cls.Trace()}')
+    print('[INFO] Rotation:')
+    print(f'[INFO]  Euler Angles = {HTM_Cls.Get_Rotation(axes_sequence_cfg)}')
 
 if __name__ == '__main__':
     sys.exit(main())

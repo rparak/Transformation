@@ -1343,9 +1343,6 @@ class Homogeneous_Transformation_Matrix_Cls(object):
             'ANGLE_AXIS': lambda x: Get_Angle_Axis_From_Matrix(x)
         }[axes_sequence_cfg](self.__T)
 
-    def Get_Dual_Quaternion(self):
-        pass
-
 class Euler_Angle_Cls(Vector3_Cls):
     """
     Description:
