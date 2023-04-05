@@ -1,4 +1,4 @@
-# Transformation_Lib
+# A Transformation Library useful for Robotic Applications
 
 ## Requirements:
 
@@ -19,9 +19,7 @@ Windows, Linux, macOS
 ```
 
 ## Project Description:
-An open-source library for transformation functions useful for robotics.
-
-The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
+An open source library for transformation functions useful for robotic applications. The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
 
 ## Simple Demonstration
 
