@@ -49,12 +49,12 @@ def main():
     print('[INFO]  [R] = ')
     print(f'{HTM_Cls.R}')
     print(f'[INFO] Input Euler_Angles<float> {EA_Cls.Shape} = {EA_Cls.all()} [radians]')
+    print('[INFO] Rotation:')
+    print(f'[INFO]  Euler Angles = {HTM_Cls.Get_Rotation(axes_sequence_cfg)} [radians]')
     print('[INFO] T^(-1) = ')
     print(f'{HTM_Cls.Inverse()}')
     print(f'[INFO] Diagonal = {HTM_Cls.Diagonal()[0:-1]}')
     print(f'[INFO] Tace = {HTM_Cls.Trace()}')
-    print('[INFO] Rotation:')
-    print(f'[INFO]  Euler Angles = {HTM_Cls.Get_Rotation(axes_sequence_cfg)}')
-
+ 
 if __name__ == '__main__':
     sys.exit(main())
