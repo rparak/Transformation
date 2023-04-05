@@ -36,16 +36,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_vector3.py
 import sys
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Platform (Platform identification data)
-import platform
 # System (Default)
 import sys
-if platform.system() == 'Windows':
-    # Windows Path.
-    sys.path.append('..')
-else:
-    # Linux / macOS Path.
-    sys.path.append('..') 
+sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -86,16 +79,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_euler.py
 import sys
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Platform (Platform identification data)
-import platform
 # System (Default)
 import sys
-if platform.system() == 'Windows':
-    # Windows Path.
-    sys.path.append('..')
-else:
-    # Linux / macOS Path.
-    sys.path.append('..') 
+sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -142,16 +128,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_htm.py
 import sys
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Platform (Platform identification data)
-import platform
 # System (Default)
 import sys
-if platform.system() == 'Windows':
-    # Windows Path.
-    sys.path.append('..')
-else:
-    # Linux / macOS Path.
-    sys.path.append('..') 
+sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -211,16 +190,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_quaternion.py
 import sys
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Platform (Platform identification data)
-import platform
 # System (Default)
 import sys
-if platform.system() == 'Windows':
-    # Windows Path.
-    sys.path.append('..')
-else:
-    # Linux / macOS Path.
-    sys.path.append('..') 
+sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
