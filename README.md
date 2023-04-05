@@ -21,6 +21,8 @@ Windows, Linux, macOS
 ## Project Description:
 An open-source library for transformation functions useful for robotics.
 
+The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
+
 ## Simple Demonstration
 
 **Vector3_Cls(object):**
