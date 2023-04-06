@@ -18,7 +18,29 @@ More information can be found in the individual scripts (.py).
 Windows, Linux, macOS
 ```
 
-## Simple Demonstration
+## Project Description:
+An open source library for transformation functions useful for robotic applications (forward/inverse kinematics, path planning, etc.) The library provides access to various classes for working with three-dimensional vectors (Vector3_Cls), euler angles (Euler_Angle_Cls), quaternions (Quaternion_Cls), and homogeneous transformation matrices (Homogeneous_Transformation_Matrix_Cls). 
+
+```bash
+Path: ..\Transformation_Lib\src\Lib\Transformation.py
+```
+
+The repository also contains a mathematical library for some useful project-related functions.
+
+```bash
+Path: ..\Transformation_Lib\src\Lib\Utilities\Mathematics.py
+```
+
+The library can be used within the Robot Operating System (ROS), Blender, Nvidia Isaac or any program that allows Python as a programming language.
+
+**Note:**
+The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
+
+```bash
+Path: ..\Transformation_Lib\src\Lib\Simplification\{Euler_Angles.py or Quaternion.py}
+```
+
+## Simple Demonstration:
 
 **Vector3_Cls(object):**
 
