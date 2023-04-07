@@ -1,10 +1,8 @@
 # System (Default)
 import sys
+sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# System (Default)
-import sys
-sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
