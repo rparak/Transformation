@@ -51,11 +51,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_vector3.py
 ```py 
 # System (Default)
 import sys
+sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# System (Default)
-import sys
-sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -94,11 +92,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_euler.py
 ```py 
 # System (Default)
 import sys
+sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# System (Default)
-import sys
-sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -143,11 +139,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_htm.py
 ```py 
 # System (Default)
 import sys
+sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# System (Default)
-import sys
-sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
@@ -205,11 +199,9 @@ $ ..\Transformation_Lib\src\Evaluation> python3 main_quaternion.py
 ```py 
 # System (Default)
 import sys
+sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# System (Default)
-import sys
-sys.path.append('..')
 # Custom Library:
 #   ../Lib/Transformation
 import Lib.Transformation as Transformation
