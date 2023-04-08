@@ -22,13 +22,13 @@ Windows, Linux, macOS
 An open source library for transformation functions useful for robotic applications (forward/inverse kinematics, path planning, etc.) The library provides access to various classes for working with three-dimensional vectors (Vector3_Cls), euler angles (Euler_Angle_Cls), quaternions (Quaternion_Cls), and homogeneous transformation matrices (Homogeneous_Transformation_Matrix_Cls). 
 
 ```bash
-Path: ..\Transformation_Lib\src\Lib\Transformation.py
+Path: ..\Transformation_Lib\src\Lib\Transformation\Core.py
 ```
 
 The repository also contains a mathematical library for some useful project-related functions.
 
 ```bash
-Path: ..\Transformation_Lib\src\Lib\Utilities\Mathematics.py
+Path: ..\Transformation_Lib\src\Lib\Transformation\Utilities\Mathematics.py
 ```
 
 The library can be used within the Robot Operating System (ROS), Blender, Nvidia Isaac or any program that allows Python as a programming language.
@@ -55,8 +55,8 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
 
 def main():
     """
@@ -96,10 +96,10 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
-#   ../Lib/Utilities/Mathematics
-import Lib.Utilities.Mathematics as Mathematics
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
+#   ../Lib/Transformation/Utilities/Mathematics
+import Lib.Transformation.Utilities.Mathematics as Mathematics
 
 def main():
     """
@@ -143,10 +143,10 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
-#   ../Lib/Utilities/Mathematics
-import Lib.Utilities.Mathematics as Mathematics
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
+#   ../Lib/Transformation/Utilities/Mathematics
+import Lib.Transformation.Utilities.Mathematics as Mathematics
 
 def main():
     """
@@ -203,10 +203,10 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
-#   ../Lib/Utilities/Mathematics
-import Lib.Utilities.Mathematics as Mathematics
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
+#   ../Lib/Transformation/Utilities/Mathematics
+import Lib.Transformation.Utilities.Mathematics as Mathematics
 
 def main():
     """
