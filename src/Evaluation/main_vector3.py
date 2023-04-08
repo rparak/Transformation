@@ -4,8 +4,8 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
 
 def main():
     """

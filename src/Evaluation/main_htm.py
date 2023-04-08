@@ -4,10 +4,10 @@ sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Library:
-#   ../Lib/Transformation
-import Lib.Transformation as Transformation
-#   ../Lib/Utilities/Mathematics
-import Lib.Utilities.Mathematics as Mathematics
+#   ../Lib/Transformation/Core
+import Lib.Transformation.Core as Transformation
+#   ../Lib/Transformation/Utilities/Mathematics
+import Lib.Transformation.Utilities.Mathematics as Mathematics
 
 def main():
     """
