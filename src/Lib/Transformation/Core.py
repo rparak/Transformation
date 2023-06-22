@@ -950,7 +950,7 @@ class Homogeneous_Transformation_Matrix_Cls(object):
                 Cls.Transpose()
                 Cls.Diagonal()
                     ...
-                Cls.Get_Euler_Angles('ZYX')
+                Cls.Get_Rotation('ZYX')
     """
     
     # Create a global data type for the class.
