@@ -31,7 +31,7 @@ The repository also contains a mathematical library for some useful project-rela
 Path: ..\Transformation_Lib\src\Lib\Transformation\Utilities\Mathematics.py
 ```
 
-The library can be used within the Robot Operating System (ROS), Blender, Nvidia Isaac or any program that allows Python as a programming language.
+The library can be used within the Robot Operating System (ROS), Blender, PyBullet, Nvidia Isaac or any program that allows Python as a programming language.
 
 **Note:**
 The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
