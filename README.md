@@ -1,7 +1,7 @@
 # A Transformation Library useful for Robotic Applications
 
 <p align="center">
-<img src=https://github.com/rparak/Transformation/blob/main/images/transformation.png width="700" height="475">
+<img src=https://github.com/rparak/Transformation/blob/main/images/transformation.png width="700" height="450">
 </p>
 
 ## Requirements:
