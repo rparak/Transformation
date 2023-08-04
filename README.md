@@ -1,4 +1,4 @@
-# An open-source Transformation Library Useful for Robotics Applications
+# An Open-Source Transformation Library Useful for Robotics Applications
 
 <p align="center">
 <img src=https://github.com/rparak/Transformation/blob/main/images/transformation.png width="700" height="425">
