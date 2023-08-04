@@ -1,4 +1,4 @@
-# A Transformation Library useful for Robotic Applications
+# An open-source Transformation Library Useful for Robotic Applications
 
 <p align="center">
 <img src=https://github.com/rparak/Transformation/blob/main/images/transformation.png width="700" height="425">
@@ -261,7 +261,7 @@ Roman.Parak@outlook.com
 ```bash
 @misc{RomanParak_DataConverter,
   author = {Roman Parak},
-  title = {An open-source library for transformation functions useful for robotics},
+  title = {An open-source transformation library Useful for robotic applications},
   year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
