@@ -265,7 +265,7 @@ Roman.Parak@outlook.com
   year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://https://github.com/rparak/Data_Converter}}
+  howpublished = {\url{https://https://github.com/rparak/Transformation}}
 }
 ```
 
