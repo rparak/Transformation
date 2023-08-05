@@ -26,13 +26,13 @@ Windows, Linux, macOS
 An open source library for transformation functions useful for robotic applications (forward/inverse kinematics, path planning, etc.) The library provides access to various classes for working with three-dimensional vectors (Vector3_Cls), euler angles (Euler_Angle_Cls), quaternions (Quaternion_Cls), and homogeneous transformation matrices (Homogeneous_Transformation_Matrix_Cls). 
 
 ```bash
-Path: ..\Transformation_Lib\src\Lib\Transformation\Core.py
+Path: ..\Transformation\src\Lib\Transformation\Core.py
 ```
 
 The repository also contains a mathematical library for some useful project-related functions.
 
 ```bash
-Path: ..\Transformation_Lib\src\Lib\Transformation\Utilities\Mathematics.py
+Path: ..\Transformation\src\Lib\Transformation\Utilities\Mathematics.py
 ```
 
 The library can be used within the Robot Operating System (ROS), Blender, PyBullet, Nvidia Isaac, or any program that allows Python as a programming language.
@@ -41,7 +41,7 @@ The library can be used within the Robot Operating System (ROS), Blender, PyBull
 The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
 
 ```bash
-Path: ..\Transformation_Lib\src\Lib\Simplification\{Euler_Angles.py or Quaternion.py}
+Path: ..\Transformation\src\Lib\Simplification\{Euler_Angles.py or Quaternion.py}
 ```
 
 ## Simple Demonstration
@@ -49,7 +49,7 @@ Path: ..\Transformation_Lib\src\Lib\Simplification\{Euler_Angles.py or Quaternio
 **Vector3_Cls(object)**
 
 ```bash
-$ ..\Transformation_Lib\src\Evaluation> python3 main_vector3.py
+$ ..\Transformation\src\Evaluation> python3 main_vector3.py
 ```
 
 ```py 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 **Euler_Angle_Cls(object)**
 
 ```bash
-$ ..\Transformation_Lib\src\Evaluation> python3 main_euler.py
+$ ..\Transformation\src\Evaluation> python3 main_euler.py
 ```
 
 ```py 
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 **Homogeneous_Transformation_Matrix_Cls(object)**
 
 ```bash
-$ ..\Transformation_Lib\src\Evaluation> python3 main_htm.py
+$ ..\Transformation\src\Evaluation> python3 main_htm.py
 ```
 
 ```py 
@@ -197,7 +197,7 @@ if __name__ == '__main__':
 **Quaternion_Cls(object)**
 
 ```bash
-$ ..\Transformation_Lib\src\Evaluation> python3 main_quaternion.py
+$ ..\Transformation\src\Evaluation> python3 main_quaternion.py
 ```
 
 ```py 
