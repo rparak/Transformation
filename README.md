@@ -4,25 +4,25 @@
 <img src=https://github.com/rparak/Transformation/blob/main/images/transformation.png width="700" height="425">
 </p>
 
-## Requirements:
+## Requirements
 
-**Programming Language:**
+**Programming Language**
 
 ```bash
 Python
 ```
 
-**Import Libraries:**
+**Import Libraries**
 ```bash
 More information can be found in the individual scripts (.py).
 ```
 
-**Supported on the following operating systems:**
+**Supported on the following operating systems**
 ```bash
 Windows, Linux, macOS
 ```
 
-## Project Description:
+## Project Description
 An open source library for transformation functions useful for robotic applications (forward/inverse kinematics, path planning, etc.) The library provides access to various classes for working with three-dimensional vectors (Vector3_Cls), euler angles (Euler_Angle_Cls), quaternions (Quaternion_Cls), and homogeneous transformation matrices (Homogeneous_Transformation_Matrix_Cls). 
 
 ```bash
@@ -37,16 +37,16 @@ Path: ..\Transformation_Lib\src\Lib\Transformation\Utilities\Mathematics.py
 
 The library can be used within the Robot Operating System (ROS), Blender, PyBullet, Nvidia Isaac, or any program that allows Python as a programming language.
 
-**Note:**
+**Note**
 The project is extended with functions to obtain simplified equations for fast conversion using a library for symbolic mathematics.
 
 ```bash
 Path: ..\Transformation_Lib\src\Lib\Simplification\{Euler_Angles.py or Quaternion.py}
 ```
 
-## Simple Demonstration:
+## Simple Demonstration
 
-**Vector3_Cls(object):**
+**Vector3_Cls(object)**
 
 ```bash
 $ ..\Transformation_Lib\src\Evaluation> python3 main_vector3.py
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     sys.exit(main())
 ```
 
-**Euler_Angle_Cls(object):**
+**Euler_Angle_Cls(object)**
 
 ```bash
 $ ..\Transformation_Lib\src\Evaluation> python3 main_euler.py
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     sys.exit(main())
 ```
 
-**Homogeneous_Transformation_Matrix_Cls(object):**
+**Homogeneous_Transformation_Matrix_Cls(object)**
 
 ```bash
 $ ..\Transformation_Lib\src\Evaluation> python3 main_htm.py
@@ -194,7 +194,7 @@ if __name__ == '__main__':
     sys.exit(main())
 ```
 
-**Quaternion_Cls(object):**
+**Quaternion_Cls(object)**
 
 ```bash
 $ ..\Transformation_Lib\src\Evaluation> python3 main_quaternion.py
@@ -254,7 +254,7 @@ if __name__ == '__main__':
     sys.exit(main())
 ```
 
-## Contact Info:
+## Contact Info
 Roman.Parak@outlook.com
 
 ## Citation (BibTex)
