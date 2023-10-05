@@ -17,7 +17,7 @@ def main():
     v3_rnd = np.random.uniform(-100, 100, 3)
 
     # Initialization of the class.
-    Vec3_Cls = Transformation.Vector3_Cls(v3_rnd, np.float32)
+    Vec3_Cls = Transformation.Vector3_Cls(v3_rnd, np.float64)
 
     # Display the requested class information.
     print(f'[INFO] Vector<float> {Vec3_Cls.Shape} = {Vec3_Cls.all()}')

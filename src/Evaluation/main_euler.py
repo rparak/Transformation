@@ -19,7 +19,7 @@ def main():
     ea_rnd = np.random.uniform(-Mathematics.CONST_MATH_HALF_PI, Mathematics.CONST_MATH_HALF_PI, 3)
 
     # Initialization of the class.
-    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, 'ZYX', np.float32)
+    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, 'ZYX', np.float64)
 
     # Display the requested class information.
     print(f'[INFO] Euler_Angles<float> {EA_Cls.Shape} = {EA_Cls.all()} [radians]')

@@ -22,7 +22,7 @@ def main():
     ea_rnd = np.random.uniform(-Mathematics.CONST_MATH_HALF_PI, Mathematics.CONST_MATH_HALF_PI, 3)
 
     # Initialization of the class (Euler Angle).
-    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, axes_sequence_cfg, np.float32)
+    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, axes_sequence_cfg, np.float64)
 
     # Get the homogeneous transformation matrix.
     T = EA_Cls.Get_Homogeneous_Transformation_Matrix().all()
@@ -30,7 +30,7 @@ def main():
     T[:3, 3] = np.random.uniform(-10, 10, 3).reshape(1, 3)
     
     # Initialization of the class (Homogeneous transformation matrix).
-    HTM_Cls = Transformation.Homogeneous_Transformation_Matrix_Cls(T, np.float32)
+    HTM_Cls = Transformation.Homogeneous_Transformation_Matrix_Cls(T, np.float64)
 
     # Display the requested class information.
     print(f'[INFO] T<float, float> {HTM_Cls.Shape} = ')

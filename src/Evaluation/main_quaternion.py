@@ -22,13 +22,13 @@ def main():
     ea_rnd = np.random.uniform(-Mathematics.CONST_MATH_HALF_PI, Mathematics.CONST_MATH_HALF_PI, 3)
 
     # Initialization of the class (Euler Angle).
-    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, axes_sequence_cfg, np.float32)
+    EA_Cls = Transformation.Euler_Angle_Cls(ea_rnd, axes_sequence_cfg, np.float64)
 
     # Get the Unit-Quaternion.
     q = EA_Cls.Get_Quaternion()
 
     # Initialization of the class.
-    Quaternion_Cls = Transformation.Quaternion_Cls(q.all(), np.float32)
+    Quaternion_Cls = Transformation.Quaternion_Cls(q.all(), np.float64)
 
     # Display the requested class information.
     print(f'[INFO] Quaternion<float> {Quaternion_Cls.Shape} = {Quaternion_Cls.all()} [-]')
