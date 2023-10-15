@@ -3,7 +3,7 @@ import sys
 sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Custom Library:
+# Custom Lib.:
 #   ../Lib/Transformation/Core
 import Lib.Transformation.Core as Transformation
 #   ../Lib/Transformation/Utilities/Mathematics
