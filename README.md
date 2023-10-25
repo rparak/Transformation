@@ -267,7 +267,7 @@ Roman.Parak@outlook.com
 
 ## Citation (BibTex)
 ```bash
-@misc{RomanParak_DataConverter,
+@misc{RomanParak_Transformation,
   author = {Roman Parak},
   title = {An open-source transformation library useful for robotics applications},
   year = {2023},
