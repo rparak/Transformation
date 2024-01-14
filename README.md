@@ -49,7 +49,7 @@ Path: ..\Transformation\src\Simplification\{Euler_Angles.py or Quaternion.py}
 **Vector3_Cls(object)**
 
 ```bash
-$ ..\Transformation\src\Evaluation> python3 main_vector3.py
+$ ..\Transformation\Evaluation> python3 main_vector3.py
 ```
 
 ```py 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 **Euler_Angle_Cls(object)**
 
 ```bash
-$ ..\Transformation\src\Evaluation> python3 main_euler.py
+$ ..\Transformation\Evaluation> python3 main_euler.py
 ```
 
 ```py 
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 **Homogeneous_Transformation_Matrix_Cls(object)**
 
 ```bash
-$ ..\Transformation\src\Evaluation> python3 main_htm.py
+$ ..\Transformation\Evaluation> python3 main_htm.py
 ```
 
 ```py 
@@ -197,7 +197,7 @@ if __name__ == '__main__':
 **Quaternion_Cls(object)**
 
 ```bash
-$ ..\Transformation\src\Evaluation> python3 main_quaternion.py
+$ ..\Transformation\Evaluation> python3 main_quaternion.py
 ```
 
 ```py 
