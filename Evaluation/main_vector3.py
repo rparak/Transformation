@@ -1,11 +1,13 @@
 # System (Default)
 import sys
-sys.path.append('..')
+#   Add access if it is not in the system path.
+if '../' + 'src' not in sys.path:
+    sys.path.append('../' + 'src')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
 # Custom Lib.:
-#   ../Lib/Transformation/Core
-import Lib.Transformation.Core as Transformation
+#   ../Transformation/Core
+import Transformation.Core as Transformation
 
 def main():
     """
