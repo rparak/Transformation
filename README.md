@@ -58,7 +58,7 @@ import sys
 sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Custom Library:
+# Custom Lib.:
 #   ../Transformation/Core
 import Transformation.Core as Transformation
 
@@ -99,7 +99,7 @@ import sys
 sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Custom Library:
+# Custom Lib.:
 #   ../Transformation/Core
 import Transformation.Core as Transformation
 #   ../Transformation/Utilities/Mathematics
@@ -146,7 +146,7 @@ import sys
 sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Custom Library:
+# Custom Lib.:
 #   ../Transformation/Core
 import Transformation.Core as Transformation
 #   ../Transformation/Utilities/Mathematics
@@ -206,7 +206,7 @@ import sys
 sys.path.append('..')
 # Numpy (Array computing) [pip3 install numpy]
 import numpy as np
-# Custom Library:
+# Custom Lib.:
 #   ../Transformation/Core
 import Transformation.Core as Transformation
 #   ../Transformation/Utilities/Mathematics
